@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-uou+d94*s1+%49fd4hvr#^l)fcgso^z7a+p)n8o0wz^go)ryya
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1', '.vercel.app']
 
 
 # Application definition
@@ -76,7 +76,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'zinary_poetry.wsgi.application'
+WSGI_APPLICATION = 'zinary_poetry.wsgi.app'
 
 
 # Database
